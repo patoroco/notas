@@ -1,11 +1,4 @@
-#Getting Good With Git
-![image](http://rockable.heroku.s3.amazonaws.com/sites/4f4d642a3c70e60001000008/contents/content_instance/4f6acce826a2340001000153/files/L_GettingGoodwithGit.png)
-
-[**URL del libro**](http://rockablepress.com/books/getting-good-with-git)
-
-**Autor:** Andrew Burgess
-
-##Contenido
+#Comandos
 * `git init`
 * `git status`
 * `git clone`
@@ -71,7 +64,8 @@
 * `git push origin master`
 * `git rebase` // Mete los commits de una rama en la rama actual, para evitar el merge.
 
-###Tags
+#Tips
+##Tags
 Hay dos tipos:
 
 * lightweight // Son un puntero .gittag
@@ -80,7 +74,7 @@ Hay dos tipos:
 `git tag -a <etiqueta> -m <mensaje>` (el mensaje es opcional)
 
 
-###Archivo .gitignore:
+##Archivo .gitignore:
 		*.log
 		!errors.log
 		
@@ -89,7 +83,7 @@ Hay dos tipos:
 
 
 
-###Referenciar commits
+##Referenciar commits
 * SHA-1 hash (el hash que aparece en el log, por ejemplo). Suele bastar con los 7 primeros caracteres.
 * La rama / tag / nombre remote.
 * Especificación de fecha:
