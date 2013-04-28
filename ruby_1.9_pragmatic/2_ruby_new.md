@@ -2,11 +2,12 @@
 - Constructor standard, new: `song.new('Título')`.
 - `puts` imprime una cadena por pantalla con salto de línea final.
 - no hace falta poner `;` al final de las sentencias.
+- no se definen las variables locales, se usan (similar a PHP).
 - los comentarios se colocan con `#`.
 - aconsejan utilizar identación de 2 caracteres.
 - métodos definidos con `def <nombre> (<parametros>)`.
 - no se usan las llaves para los métodos, simplemente se pone `end`.
-- si se utilizan comillas dobles, se pueden invocar los métodos dentro: `cadena #{nombre}`.
+- si se utilizan comillas dobles, se interpreta el contenido: `"cadena #{nombre}"`.
 - el valor devuelto por un método es el de la última expresión evaluada, por lo que se puede evitar el `return` si se quiere.
 
 
