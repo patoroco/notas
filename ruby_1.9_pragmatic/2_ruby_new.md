@@ -35,7 +35,7 @@ El primer caracter de un nombre indica cómo es usado:
 		
 	Aunque sería lo mismo que hacer:
 	
-		a = [)'ant', 'bee', 'cat', 'dog', 'elk']]
+		a = ['ant', 'bee', 'cat', 'dog', 'elk']
 		
 ###Hashes
 ####Creación
